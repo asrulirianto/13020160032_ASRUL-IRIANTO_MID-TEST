@@ -66,9 +66,6 @@ public class DetailFilm extends AppCompatActivity {
         year = getResources().getStringArray(R.array.tvSeriesYear);
         photo = getResources().obtainTypedArray(R.array.tvSeriesCoverPhoto);
 
-        if (Name.getText().toString().equals("The Flash")) {
-            Name.setText("aaaaa");
-        }
 
     }
 }
